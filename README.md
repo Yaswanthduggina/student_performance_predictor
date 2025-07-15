@@ -107,4 +107,19 @@ What does where python show?
 
 Whether imports run smoothly in the notebook?
 
-**data science execution (EDA.ipynd file) END**
+
+
+
+**Pulling from Github to vscode**
+ping github.com
+git fetch origin
+git switch master
+git pull origin master
+
+
+
+**Pushing to Github from vscode**
+git status
+git add 
+git commit -m "Your commit message"
+git push

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Predictor</title>
+</head>
+<body>
+    <h1>Enter Student Details</h1>
+    <form action="/predict" method="POST">
+        <label>Age:</label><input type="number" name="age" required><br>
+        <label>Hours Studied:</label><input type="number" name="hours_studied" step="0.1" required><br>
+        <label>Attendance (%):</label><input type="number" name="attendance" step="0.1" required><br>
+        <label>Past Score:</label><input type="number" name="past_score" step="0.1" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
